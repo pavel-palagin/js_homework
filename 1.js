@@ -15,4 +15,10 @@ const numbers = {
   key7: 7,
 };
 
-// Здесь пишем решение, данный комментарий необходимо стереть.
+const arr = Object.values(numbers);
+
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] >= 3) {
+    console.log(arr[i]);
+  }
+}
